@@ -3,16 +3,16 @@ import Script from "next/script";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Puppies | Clínica Veterinária em Samambaia Norte — DF",
+  title: "Puppies | Clínica Veterinária em Samambaia Norte – DF",
   description:
     "Clínica Veterinária Puppies em Samambaia Norte, Brasília. Clínica geral, especialidades, internação, cirurgias, vacinas e exames. O cuidado que seu pet merece.",
   themeColor: "#FFD902",
   openGraph: {
     title: "Puppies | Clínica Veterinária",
-    description: "O cuidado que seu pet merece está aqui. Samambaia Norte, Brasília — DF.",
+    description: "O cuidado que seu pet merece está aqui. Samambaia Norte, Brasília – DF.",
     locale: "pt_BR",
-    type: "website"
-  }
+    type: "website",
+  },
   robots: {
     index: false,
     follow: false,
@@ -21,7 +21,6 @@ export const metadata: Metadata = {
       follow: false,
     },
   },
-}
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
